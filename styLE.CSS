@@ -1,0 +1,373 @@
+#logo{
+   
+font-size: 40px;
+font-weight: 900;
+  
+    color: white;
+   
+ }#nav{
+ color: white;
+
+
+}
+
+
+.navbar {
+  background-color: rgba(6, 27, 94, 0.993);
+  
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: darkgoldenrod !important;
+}
+
+.hero-section {
+  background: url('./A\ ONE\ UNIFORMS2.png') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  height: 350px;
+  background-color: #333333a6;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-section h2 {
+  font-size: 2rem;
+}
+
+.content-section {
+  padding: 60px 20px;
+}
+
+.content-section h2 {
+  font-size: 2.5rem;
+  color: rgba(6, 27, 94, 0.945);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.btn1{
+    padding: 15px;
+      margin:20px;
+       
+
+       background-color: rgba(0, 102, 255, 0.89) ;
+     color: white;
+      text-decoration:none;
+      font-size: 15px;
+      font-weight: 600; 
+      border-radius: 15px;
+      
+}#nav:hover{
+    text-decoration: underline;
+    color: rgb(226, 255, 156);
+    cursor: pointer;
+   color:rgb(16, 135, 139);
+    transition: 2s;
+    
+} .btn1:hover{
+    color: white;
+    background-color: rgba(6, 27, 94, 0.945);
+}#h3{
+    font-size: 45px;
+    align-items: center;
+  
+       color: rgba(6, 27, 94, 0.945);
+     
+      font-weight: 800;
+      text-align: center;
+} 
+h3{
+  font-size: 20px;
+  color: #1215bde5; 
+
+}
+i{
+  color: black;
+}
+.card-title{
+  font: size 20px;;
+}
+
+.card {
+       transition: transform 0.5s;
+       margin-top: 20px;
+       
+     }
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: #1295bde1;
+    cursor: pointer;
+    color: white;
+  }
+  
+   
+  
+   a{
+     text-decoration: none;
+     color: #1215bde5;
+  } em{
+    color:rgba(0, 102, 255, 0.89) ;
+  }.circle {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    transition: transform 0.3s ease;
+    margin-top: 40px;
+}
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation:ease-out;
+    animation-duration: 1s;
+}
+ .circle:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.buy-now {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    
+    background: linear-gradient(to right, #3498db, #1221f3, #3ce7c2, #9b59b6, #3498db); /* Gradient colors */
+background-size: 200% 100%; 
+animation: gradient-move 2s ease infinite;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+.card:hover .buy-now {
+    transform: translateY(0);
+}
+
+
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  transition: transform 0.3s ease;
+ 
+}
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation:ease-out;
+  animation-duration: 1s;
+}
+.circle:hover {
+  transform: scale(1.1);
+}
+.circle .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  color: #000000;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+}
+.circle:hover .overlay {
+  opacity: 10;
+  
+}
+.overlay{
+  margin-bottom: 100px;
+}
+.hero-content{
+  flex: 1;
+  width: 600px;
+  margin: 0px 25px;
+  animation: fadeInup 2s  ease;
+ 
+}
+.hero-content h2{
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #333 ;
+
+}
+.hero-content p{
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  color: #666 ;
+}
+
+
+
+
+.hero-image{
+  flex: 1;  
+  width: 100%;
+  margin: auto;
+   animation: fadeInRight 2s  ease;
+}
+b{
+  color:#1295bde1;;
+  font-size: 10pxpx;
+}
+b:hover{
+  color: white;
+}
+.list{
+  color: white;
+   font: size 10pxpx;
+}
+.footer-title {
+  margin-top: 30px;
+}
+.footer-description {
+  font-size: 18px;
+}
+.list {
+  margin-bottom: 5px;
+}
+.list a {
+  color: white;
+  text-decoration: none;
+}
+.list b {
+  color: #f8f9fa;
+}
+.contH2{
+  color:  #1215bde5;
+  font-weight: 700;
+  
+}
+body {
+  font-family: Arial, ;
+  margin: 0;
+  padding: 0;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #333;
+}
+ 
+  
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .footer-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #f9f9f9;
+  }
+
+  .footer-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .list {
+    margin-bottom: 0.5rem;
+  }
+
+  .list a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .list a:hover {
+    color: #f9f9f9;
+  }
+
+  .fa-lg {
+    margin-right: 0.5rem;
+  }
+
+
+  
+  @media (max-width: 992px) {
+    .col-lg-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer-title {
+      font-size: 1.25rem;
+    }
+
+    .footer-description {
+      font-size: 0.875rem;
+    }
+
+    .fa-lg {
+      font-size: 1.25rem;
+    }
+  }
+
+
